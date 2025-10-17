@@ -1,0 +1,7 @@
+.sirrtech__logo-container {
+  width: 180px;
+}
+.sirrtech__logo-container img {
+  width: 100%;
+  object-fit: contain;
+}

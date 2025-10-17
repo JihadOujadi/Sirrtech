@@ -1,0 +1,17 @@
+.sirrtech__nav {
+  width: 60%;
+}
+
+.sirrtech__nav__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sirrtech__nav__list-item {
+  list-style: none;
+  color: var(--primary);
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "DM Sans", sans-serif;
+}
