@@ -1,0 +1,15 @@
+.sirrtech__hero-banner__title-container {
+  width: fit-content;
+}
+
+.sirrtech__hero-banner__title {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.sirrtech__hero-banner__title--element {
+  font-size: 80px;
+  width: fit-content;
+  font-family: var(--heading);
+}
