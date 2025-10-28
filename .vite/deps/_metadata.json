@@ -1,52 +1,61 @@
 {
-  "hash": "667aa5e0",
+  "hash": "4e5838b4",
   "configHash": "511c51bb",
-  "lockfileHash": "b7b3a6cd",
-  "browserHash": "e796b647",
+  "lockfileHash": "809d30ba",
+  "browserHash": "5fd996b9",
   "optimized": {
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "54b1aab2",
+      "fileHash": "9b71c7b8",
       "needsInterop": true
     },
     "react-dom": {
       "src": "../../node_modules/react-dom/index.js",
       "file": "react-dom.js",
-      "fileHash": "1b7e5640",
+      "fileHash": "802bfb54",
       "needsInterop": true
     },
     "react/jsx-dev-runtime": {
       "src": "../../node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "f9e5b7c8",
+      "fileHash": "251f6a0a",
       "needsInterop": true
     },
     "react/jsx-runtime": {
       "src": "../../node_modules/react/jsx-runtime.js",
       "file": "react_jsx-runtime.js",
-      "fileHash": "9cbbf1bf",
+      "fileHash": "bf8af783",
       "needsInterop": true
     },
     "react/compiler-runtime": {
       "src": "../../node_modules/react/compiler-runtime.js",
       "file": "react_compiler-runtime.js",
-      "fileHash": "d5c9e39d",
+      "fileHash": "1a503da5",
       "needsInterop": true
+    },
+    "gsap": {
+      "src": "../../node_modules/gsap/index.js",
+      "file": "gsap.js",
+      "fileHash": "7ccb5fba",
+      "needsInterop": false
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "c9d8c7db",
+      "fileHash": "09b0ad0e",
       "needsInterop": true
     }
   },
   "chunks": {
-    "chunk-FC2D7TFI": {
-      "file": "chunk-FC2D7TFI.js"
+    "chunk-6NCU7276": {
+      "file": "chunk-6NCU7276.js"
     },
-    "chunk-TDVGPZLM": {
-      "file": "chunk-TDVGPZLM.js"
+    "chunk-J6KE6MJH": {
+      "file": "chunk-J6KE6MJH.js"
+    },
+    "chunk-BUSYA2B4": {
+      "file": "chunk-BUSYA2B4.js"
     }
   }
 }

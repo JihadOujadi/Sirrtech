@@ -1,15 +1,64 @@
 .sirrtech__hero-banner__title-container {
   width: fit-content;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
 }
 
 .sirrtech__hero-banner__title {
   display: flex;
   flex-direction: column;
   width: fit-content;
+  position: relative;
+  height: 1.8em;
 }
 
 .sirrtech__hero-banner__title--element {
   font-size: 80px;
   width: fit-content;
   font-family: var(--heading);
+  font-weight: var(--extra-bold);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.sirrtech__hero-banner__content {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.sirrtech__hero-banner__subtitle {
+  line-height: 1.2;
+  font-weight: var(--bold);
+  font-size: 30px;
+}
+
+.sirrtech__hero-banner__text {
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.sirrtech__hero-banner__cta {
+  background: var(--white);
+  width: fit-content;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.sirrtech__hero-banner__cta--text {
+  background: var(--text-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  width: fit-content;
+  font-size: 18px;
+  font-weight: var(--bold);
 }

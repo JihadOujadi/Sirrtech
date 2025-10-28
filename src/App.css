@@ -6,7 +6,7 @@
   --cta: #1b3f62;
   --background: linear-gradient(
     180deg,
-    rgba(1, 53, 80, 1) 25%,
+    rgba(1, 53, 83, 1) 25%,
     rgba(27, 63, 98, 1) 50%,
     rgba(26, 86, 119, 1) 75%,
     rgba(22, 144, 167, 1) 100%
@@ -14,6 +14,16 @@
   --white: #ffffff;
   --heading: "DM Sans", sans-serif;
   --body: "Inter", sans-serif;
+  --regular: 400;
+  --medium: 500;
+  --bold: 700;
+  --extra-bold: 800;
+  --text-color: linear-gradient(
+    180deg,
+    rgba(1, 53, 83, 1) 25%,
+    rgba(26, 86, 119, 1) 66%,
+    rgba(2, 144, 167, 1) 100%
+  );
 }
 
 * {
