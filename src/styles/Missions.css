@@ -1,0 +1,27 @@
+.sirrtech__missions {
+  background: var(--white);
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.sirrtech__missions__title {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.sirrtech__title--colored {
+  background: var(--text-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sirrtech__missions__title-text {
+  font-family: var(--body);
+  color: var(--primary);
+  font-weight: var(--medium);
+}

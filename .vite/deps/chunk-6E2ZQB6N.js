@@ -1,9 +1,9 @@
 import {
   require_react
-} from "./chunk-J6KE6MJH.js";
+} from "./chunk-IGXLOIK6.js";
 import {
   __commonJS
-} from "./chunk-BUSYA2B4.js";
+} from "./chunk-5WRI5ZAA.js";
 
 // node_modules/react-dom/cjs/react-dom.development.js
 var require_react_dom_development = __commonJS({
@@ -264,17 +264,4 @@ var require_react_dom = __commonJS({
 export {
   require_react_dom
 };
-/*! Bundled license information:
-
-react-dom/cjs/react-dom.development.js:
-  (**
-   * @license React
-   * react-dom.development.js
-   *
-   * Copyright (c) Meta Platforms, Inc. and affiliates.
-   *
-   * This source code is licensed under the MIT license found in the
-   * LICENSE file in the root directory of this source tree.
-   *)
-*/
-//# sourceMappingURL=chunk-6NCU7276.js.map
+//# sourceMappingURL=chunk-6E2ZQB6N.js.map

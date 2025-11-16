@@ -1,9 +1,9 @@
 import {
   require_react
-} from "./chunk-J6KE6MJH.js";
+} from "./chunk-IGXLOIK6.js";
 import {
   __commonJS
-} from "./chunk-BUSYA2B4.js";
+} from "./chunk-5WRI5ZAA.js";
 
 // node_modules/react/cjs/react-compiler-runtime.development.js
 var require_react_compiler_runtime_development = __commonJS({
@@ -33,17 +33,4 @@ var require_compiler_runtime = __commonJS({
   }
 });
 export default require_compiler_runtime();
-/*! Bundled license information:
-
-react/cjs/react-compiler-runtime.development.js:
-  (**
-   * @license React
-   * react-compiler-runtime.development.js
-   *
-   * Copyright (c) Meta Platforms, Inc. and affiliates.
-   *
-   * This source code is licensed under the MIT license found in the
-   * LICENSE file in the root directory of this source tree.
-   *)
-*/
 //# sourceMappingURL=react_compiler-runtime.js.map

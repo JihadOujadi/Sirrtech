@@ -1,61 +1,79 @@
 {
-  "hash": "4e5838b4",
-  "configHash": "511c51bb",
-  "lockfileHash": "809d30ba",
-  "browserHash": "5fd996b9",
+  "hash": "11708f1a",
+  "configHash": "fcde496c",
+  "lockfileHash": "e1c5dc5a",
+  "browserHash": "19f08855",
   "optimized": {
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "9b71c7b8",
+      "fileHash": "e845d7d6",
       "needsInterop": true
     },
     "react-dom": {
       "src": "../../node_modules/react-dom/index.js",
       "file": "react-dom.js",
-      "fileHash": "802bfb54",
+      "fileHash": "a1481bc8",
       "needsInterop": true
     },
     "react/jsx-dev-runtime": {
       "src": "../../node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "251f6a0a",
+      "fileHash": "87b39503",
       "needsInterop": true
     },
     "react/jsx-runtime": {
       "src": "../../node_modules/react/jsx-runtime.js",
       "file": "react_jsx-runtime.js",
-      "fileHash": "bf8af783",
+      "fileHash": "d028a334",
       "needsInterop": true
     },
     "react/compiler-runtime": {
       "src": "../../node_modules/react/compiler-runtime.js",
       "file": "react_compiler-runtime.js",
-      "fileHash": "1a503da5",
+      "fileHash": "f40d0e10",
       "needsInterop": true
+    },
+    "@tsparticles/react": {
+      "src": "../../node_modules/@tsparticles/react/dist/index.js",
+      "file": "@tsparticles_react.js",
+      "fileHash": "bde29108",
+      "needsInterop": false
+    },
+    "@tsparticles/slim": {
+      "src": "../../node_modules/@tsparticles/slim/browser/index.js",
+      "file": "@tsparticles_slim.js",
+      "fileHash": "8625d2fe",
+      "needsInterop": false
     },
     "gsap": {
       "src": "../../node_modules/gsap/index.js",
       "file": "gsap.js",
-      "fileHash": "7ccb5fba",
+      "fileHash": "57d6cacc",
       "needsInterop": false
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "09b0ad0e",
+      "fileHash": "03fa25d8",
       "needsInterop": true
     }
   },
   "chunks": {
-    "chunk-6NCU7276": {
-      "file": "chunk-6NCU7276.js"
+    "chunk-6E2ZQB6N": {
+      "file": "chunk-6E2ZQB6N.js"
     },
-    "chunk-J6KE6MJH": {
-      "file": "chunk-J6KE6MJH.js"
+    "chunk-PITL4B22": {
+      "file": "chunk-PITL4B22.js"
     },
-    "chunk-BUSYA2B4": {
-      "file": "chunk-BUSYA2B4.js"
+    "chunk-IGXLOIK6": {
+      "file": "chunk-IGXLOIK6.js"
+    },
+    "chunk-PEXG4VAT": {
+      "file": "chunk-PEXG4VAT.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
     }
   }
 }

@@ -24,5 +24,9 @@ export default defineConfig({
   cacheDir: '.vite',
   css:{
     devSourcemap: true
+  },
+  optimizeDeps: {
+    include: ['react', 'react-dom'],
+    exclude: []
   }
 })
