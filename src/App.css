@@ -33,7 +33,7 @@
 }
 
 #root {
-  background: var(--background);
+  background: #f2f1f6;
   height: 100vh;
   width: 100vw;
 }
@@ -42,6 +42,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #f2f1f6;
 }
 
 .sirrtech__hero {
@@ -52,4 +53,6 @@
   position: relative;
   padding: 50px 30px 0;
   height: 100vh;
+  overflow: hidden;
+  background: var(--background);
 }

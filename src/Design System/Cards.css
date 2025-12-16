@@ -1,0 +1,9 @@
+.sirrtech__card {
+  background: var(--white);
+  max-width: 400px;
+  max-height: 540px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
