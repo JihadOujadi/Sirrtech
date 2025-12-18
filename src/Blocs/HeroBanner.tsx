@@ -1,8 +1,19 @@
 import "../styles/HeroBanner.css";
 import { gsap } from "gsap";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
+import Particles, { initParticlesEngine } from "@tsparticles/react";
+import { loadSlim } from "@tsparticles/slim";
+import { particlesConfig } from "../utils/particles.config";
 
 function HeroBanner() {
+  const [ready, setReady] = useState(false);
+
+  useEffect(() => {
+    initParticlesEngine(async (engine) => {
+      await loadSlim(engine);
+    }).then(() => setReady(true));
+  }, []);
+
   const titleRef = useRef<HTMLHeadingElement>(null);
 
   useEffect(() => {
@@ -49,6 +60,9 @@ function HeroBanner() {
 
   return (
     <section className="sirrtech__hero-banner">
+      {ready && (
+        <Particles id="tsparticles" options={particlesConfig}></Particles>
+      )}
       <div className="sirrtech__hero-banner__title-container">
         <h1 ref={titleRef} className="sirrtech__hero-banner__title">
           <span className="sirrtech__hero-banner__title--element">

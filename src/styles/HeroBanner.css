@@ -1,3 +1,7 @@
+.sirrtech__hero-banner {
+  overflow: hidden;
+}
+
 .sirrtech__hero-banner__title-container {
   width: fit-content;
   display: flex;

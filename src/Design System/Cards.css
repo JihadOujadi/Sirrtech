@@ -1,9 +1,22 @@
 .sirrtech__card {
   background: var(--white);
   max-width: 400px;
-  max-height: 540px;
+  width: 100%;
+  height: 380px;
   border-radius: 15px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  padding: 20px;
+}
+.sirrtech__card__description-text,
+.sirrtech__card__description-title {
+  color: var(--primary);
+}
+
+.sirrtech__card__description-title {
+  font-size: 36px;
+}
+.sirrtech__card__description-text {
+  height: 20px;
 }
