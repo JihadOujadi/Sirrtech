@@ -1,3 +1,13 @@
 .sirrtech__title {
   font-size: 46px;
+  border: 1px solid var(--white);
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+
+.sirrtech__title--colored {
+  background: var(--text-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid var(--secondary);
 }

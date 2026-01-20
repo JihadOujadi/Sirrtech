@@ -8,7 +8,14 @@
   justify-content: space-around;
   flex-direction: column;
   padding: 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
 }
+.sirrtech__card:hover {
+  transform: translateY(-20px);
+  box-shadow: 3px 3px 10px 1px rgb(0, 0, 0, 0.2);
+}
+
 .sirrtech__card__description-text,
 .sirrtech__card__description-title {
   color: var(--primary);

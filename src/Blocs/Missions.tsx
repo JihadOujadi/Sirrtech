@@ -4,6 +4,7 @@ import Cards from "../Components/Cards";
 import Efficacite from "../Design System/IconEfficacite";
 import Innovation from "../Design System/IconInnovation";
 import Simplicite from "../Design System/IconSimplicite";
+import Arrow from "../Design System/Arrow";
 
 const missionsData = [
   {
@@ -49,6 +50,27 @@ function Missions() {
             icon={mission.icon}
           ></Cards>
         ))}
+        <div className="sirrtech__card-information">
+          <div className="sirrtech__card-information__description">
+            <h3 className="sirrtech__card-information__description-title">
+              Besoin d'informations ?
+            </h3>
+            <div className="sirrtech__card-information__description-content">
+              <p className="sirrtech__card-information__description-text">
+                Contactez-nous
+              </p>
+              <p className="sirrtech__card-information__description-text">
+                Nous répondrons à vos questions
+              </p>
+            </div>
+          </div>
+          <a href="#" className="sirrtech__card-information__contact">
+            <p className="sirrtech__card-information__contact-text">
+              Contactez-Nous
+            </p>
+            <Arrow />
+          </a>
+        </div>
       </div>
     </section>
   );
