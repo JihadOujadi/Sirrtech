@@ -1,0 +1,12 @@
+.sirrtech__services {
+  background: var(--background);
+  width: 100%;
+  padding: 50px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.sirrtech__serivces__title {
+  max-width: 1280px;
+  width: 100%;
+}

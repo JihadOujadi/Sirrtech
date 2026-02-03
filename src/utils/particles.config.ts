@@ -25,8 +25,13 @@ export const particlesConfig: ISourceOptions = {
   clear: true,
   delay: 0,
   fullScreen: {
-    enable: true,
-    zIndex: 1
+    enable: false,
+    zIndex: 0
+  },
+  style:{
+position: 'absolute',
+height: '100%',
+width: '100%'
   },
   detectRetina: true,
   duration: 0,
@@ -274,7 +279,7 @@ export const particlesConfig: ISourceOptions = {
     },
     number: {
       density: {
-        enable: true,
+        enable: false,
         width: 1920,
         height: 1080
       },

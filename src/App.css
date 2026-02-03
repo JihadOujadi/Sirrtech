@@ -43,6 +43,7 @@
   flex-direction: column;
   align-items: center;
   background: #f2f1f6;
+  row-gap: 30px;
 }
 
 .sirrtech__hero {
@@ -55,4 +56,24 @@
   height: 100vh;
   overflow: hidden;
   background: var(--background);
+  contain: layout;
+}
+
+#tsparticles {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 0 !important;
+  pointer-events: none !important;
+}
+
+#tsparticles canvas {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  display: block !important;
 }

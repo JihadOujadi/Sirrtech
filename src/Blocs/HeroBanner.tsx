@@ -1,27 +1,19 @@
 import "../styles/HeroBanner.css";
 import { gsap } from "gsap";
-import { useRef, useEffect, useState } from "react";
-import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { loadSlim } from "@tsparticles/slim";
-import { particlesConfig } from "../utils/particles.config";
+import { useRef, useEffect } from "react";
 
 function HeroBanner() {
-  const [ready, setReady] = useState(false);
-
-  useEffect(() => {
-    initParticlesEngine(async (engine) => {
-      await loadSlim(engine);
-    }).then(() => setReady(true));
-  }, []);
-
   const titleRef = useRef<HTMLHeadingElement>(null);
 
   useEffect(() => {
     if (!titleRef.current) return;
 
     const spans = titleRef.current.querySelectorAll(
-      ".sirrtech__hero-banner__title--element"
+      ".sirrtech__hero-banner__title--element",
     );
+
+    //Initialisation de tous les Spans au début
+    gsap.set(spans, { y: 20, autoAlpha: 0 });
 
     // Configuration du timeline
     const tl = gsap.timeline({
@@ -30,16 +22,17 @@ function HeroBanner() {
     });
 
     spans.forEach((span, index) => {
-      // Réinitialiser la position de départ
-      tl.set(span, { y: 20, autoAlpha: 0 }, index > 0 ? "+=0.2" : undefined);
-
       // Animation d'entrée depuis le bas
-      tl.to(span, {
-        autoAlpha: 1,
-        y: 0, // Arrive à sa position normale
-        duration: 0.3,
-        ease: "power2.out",
-      });
+      tl.to(
+        span,
+        {
+          autoAlpha: 1,
+          y: 0, // Arrive à sa position normale
+          duration: 0.3,
+          ease: "power2.out",
+        },
+        index > 0 ? "+=0.2" : undefined,
+      );
 
       // Pause sur le mot
       tl.to({}, { duration: 0.5 });
@@ -51,6 +44,9 @@ function HeroBanner() {
         duration: 0.3,
         ease: "power2.in",
       });
+
+      // Réinitialisation de la position pour les prochains cycle
+      tl.set(span, { y: 20 });
     });
 
     return () => {
@@ -59,10 +55,7 @@ function HeroBanner() {
   }, []);
 
   return (
-    <section className="sirrtech__hero-banner">
-      {ready && (
-        <Particles id="tsparticles" options={particlesConfig}></Particles>
-      )}
+    <div className="sirrtech__hero-banner">
       <div className="sirrtech__hero-banner__title-container">
         <h1 ref={titleRef} className="sirrtech__hero-banner__title">
           <span className="sirrtech__hero-banner__title--element">
@@ -92,7 +85,7 @@ function HeroBanner() {
           </a>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 

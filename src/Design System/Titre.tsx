@@ -6,7 +6,9 @@ type TitleProps = {
 };
 
 function Title({ text, variant }: TitleProps) {
-  return <h2 className={`sirrtech__title ${variant}`}>{text}</h2>;
+  return (
+    <h2 className={`sirrtech__title${variant ? ` ${variant}` : ""}`}>{text}</h2>
+  );
 }
 
 export default Title;
