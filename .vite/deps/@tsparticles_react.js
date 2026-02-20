@@ -1,12 +1,12 @@
 import {
+  tsParticles
+} from "./chunk-PEXG4VAT.js";
+import {
   require_jsx_runtime
 } from "./chunk-PITL4B22.js";
 import {
   require_react
 } from "./chunk-IGXLOIK6.js";
-import {
-  tsParticles
-} from "./chunk-PEXG4VAT.js";
 import {
   __toESM
 } from "./chunk-5WRI5ZAA.js";
